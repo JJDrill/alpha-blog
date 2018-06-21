@@ -1,4 +1,6 @@
-$navbar-default-bg: #08088A;
+// $navbar-default-bg: #337ab7;
+// $navbar-default-bg: #08088A;
+$navbar-default-bg: black;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -16,4 +18,26 @@ $navbar-default-bg: #08088A;
 
 .center {
   text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('Underwater_01.jpg');
+  background-size: cover;
+  height: 350px;
+}
+
+.jumbotron h1, h2 {
+  color: #fff
+}
+
+footer {
+  margin-top: 1px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+  text-align: center;
+}
+
+footer a:hover {
+  color: #222;
 }
